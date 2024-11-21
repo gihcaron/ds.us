@@ -1,4 +1,8 @@
 class Sabotador {
+
+    
+}
+
     #senha; // atributo privado
     localAtual; // atributo público
 
@@ -32,3 +36,6 @@ constructor(grupo, nome, apelido, senha) {
    }
  }
 }
+    return "Eu sou um(a) Sabotador(a)! Meu objetivo é atrapalhar os DEVs.";
+ }}
+
