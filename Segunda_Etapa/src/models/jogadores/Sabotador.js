@@ -1,4 +1,8 @@
 class Sabotador {
+
+    
+}
+
     #senha; // atributo privado
     localAtual; // atributo público
 
@@ -22,3 +26,4 @@ constructor(grupo, nome, apelido, senha) {
  #mostrarPapel() {
     return "Eu sou um(a) Sabotador(a)! Meu objetivo é atrapalhar os DEVs.";
  }}
+
