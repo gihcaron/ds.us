@@ -30,5 +30,16 @@ constructor(grupo, nome, apelido, senha) {
    } else {
     return `${alvo.nome} já está eliminado(a).`;
    }
- }
+}}
+
+//método público para acessar o papel do sabotador
+
+acessarPapel() {
+    return this.#mostrarPapel();
+}
+
+//método público para executar a eliminação de um alvo 
+
+executarEliminacao(alvo) {
+    return this.#eliminarAlvo(alvo);
 }
