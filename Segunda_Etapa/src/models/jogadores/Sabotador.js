@@ -20,5 +20,15 @@ constructor(grupo, nome, apelido, senha) {
 
 // método privado para mostrar o papel do sabotador
  #mostrarPapel() {
-    return "Eu sou um(a) Sabotador(a)! Meu objetivo é atrapalhar os DEVs.";
- }}
+    return "Eu sou um(a) Sabotador(a)! Meu objetivo é atrapalhar os DEVs."
+ }
+ // método privado para eliminar um alvo
+ #eliminarAlvo(alvo) {
+   if (alvo.estaVivo) {
+    alvo.estaVivo = false;
+    return `${this.nome} eliminou ${alvo.nome}.`;
+   } else {
+    return `${alvo.nome} já está eliminado(a).`;
+   }
+ }
+}
