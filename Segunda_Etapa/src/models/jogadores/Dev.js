@@ -13,6 +13,9 @@ class Dev extends Aluno {  // Dev herda de Aluno
     }
 
 }
+
 //exporta o Dev
 
 export default Dev;
+}
+
