@@ -1,6 +1,6 @@
 class Sabotador {
 
-    
+
 }
 
     senha; // atributo privado
@@ -39,7 +39,7 @@ class Sabotador {
 
 //método público para acessar o papel do sabotador
 acessarPapel(); {
-    return this.#mostrarPapel()
+    return this.mostrarPapel()
 }
 
 //método público para executar a eliminação de um alvo
