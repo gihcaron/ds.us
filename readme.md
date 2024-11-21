@@ -1,18 +1,16 @@
-# Projeto de Backend
+# Projeto DS_US
 
 ## Descrição
-Este é um projeto de backend desenvolvido para [descreva o propósito do projeto]. Ele utiliza [tecnologias e frameworks utilizados] para fornecer [funcionalidades principais].
+Este é um projeto de backend desenvolvido para a execução de um jogo, DS_US. 
 
 ## Tecnologias Utilizadas
 - Node.js
-- Express
-- MongoDB
-- [outras tecnologias]
+- PostMan
+
 
 ## Funcionalidades
 - [Funcionalidade 1]
-- [Funcionalidade 2]
-- [Funcionalidade 3]
+
 
 ## Instalação
 Para instalar as dependências do projeto, execute:
@@ -33,7 +31,7 @@ Para iniciar o servidor, execute:
 ```bash
 npm start
 ```
-O servidor estará disponível em `http://localhost:3000`.
+O servidor estará disponível em `http://localhost:4000`.
 
 ## Contribuição
 1. Faça um fork do projeto
@@ -46,4 +44,4 @@ O servidor estará disponível em `http://localhost:3000`.
 Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Contato
-Para mais informações, entre em contato com [seu nome] em [seu email].
+Para mais informações, entre em contato com  Giovanna Caron em giovanna.c.barros@aluno.senai.br. 
