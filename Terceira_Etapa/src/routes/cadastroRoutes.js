@@ -6,13 +6,14 @@ const dev = [];
 
 const sabotador = [];
 
-cadastroRoutes.get("/listar/dev", (req, res) => {
   // Rota para listar todos os Dev's
+cadastroRoutes.get("/listar/dev", (req, res) => {
+    //Define o status da resposta como 200, que significa que a operação foi bem-sucedida.
 return res.status(200).json(dev);
 });
 
-cadastroRoutes.get("/listar/sabotador", (req, res) => {
   // Rota para listar todos os Sabotadores
+cadastroRoutes.get("/listar/sabotador", (req, res) => {
 return res.status(200).json(sabotador);
 });
 
