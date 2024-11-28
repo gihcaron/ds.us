@@ -23,7 +23,7 @@ class Dev extends Aluno {
 
   // Criação do método mostrarPapel
   mostrarPapel() {
-    // Retorna uma mensagem exibindo que o jogados com o apelido XYZ pe um Deve 
+    // Retorna uma mensagem exibindo que o jogados com o apelido XYZ é um Dev 
     return `Sou jogador ${this.apelido} e sou um Dev com objetivo de resolver todos os problemas backends do SENAI 🎉`;
   }
 
