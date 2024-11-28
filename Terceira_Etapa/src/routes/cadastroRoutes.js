@@ -126,8 +126,52 @@ sabotadorRoutes.put("/atualizar", (req, res) => {
     });
     });
 
-cadastroRoutes.delete("/remover", (req, res) => {
+sabotadorRoutes.delete("/remover", (req, res) => {
+  // Rota para deletar um sabotador
+  sabotadorRoutes.delete("/:id", (req, res) => {
+    const { id } = req.params;
+  
+    // Busca um sabotador pelo id no array de sabotador
+    const sabotador = sabotador.find((s) => s.id == id);
+  
+    // Verifica se o sabotador foi encontrado
+    if (!sabotador) {
+      return res.status(404)
+        .json({ message: `Sabotador com id ${id} não encontrado!` });
+    }
 
+    // Remove o sabotador do array de sabotadores
+       sabotador = sabotador.filter((sabotador) => sabotador.id != id);
+  
+       return res.status(200).json({
+         message: "sabotador removido com sucesso!",
+         sabotador,
+       });
+    });
 });
+
+devRoutes.delete("/remover", (req, res) => {
+    // Rota para deletar um dev
+    devRoutes.delete("/:id", (req, res) => {
+      const { id } = req.params;
+    
+      // Busca um dev pelo id no array de dev
+      const dev = dev.find((d) => d.id == id);
+    
+      // Verifica se o dev foi encontrado
+      if (!dev) {
+        return res.status(404)
+          .json({ message: `Dev com id ${id} não encontrado!` });
+      }
+  
+      // Remove o dev do array de devs
+         dev = dev.filter((dev) => dev.id != id);
+    
+         return res.status(200).json({
+           message: "Dev removido com sucesso!",
+           dev,
+         });
+      });
+  });
 
 export default cadastroRoutes;
