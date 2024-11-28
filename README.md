@@ -6,7 +6,7 @@
 - Amanda: Responsável pela criação do diagrama de classes, criação do método Get.
 - Ana Júlia: Responsável pela criação do diagrama de classes, criação do método Delete. 
 - Flavia: Responsável pelo diagrama de classes, criação do método Put.
-- Giovanna Caron: Responsável pela criação da classe Dev.
+- Giovanna Caron: Responsável pela criação da classe Dev e comentários no código.
 - Julia Neves: Responsável pela criação da classe Sabotador.
 - Kevin: Responsável pela criação do método Post.
 ## Tecnologias Utilizadas
