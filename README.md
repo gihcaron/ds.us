@@ -44,7 +44,7 @@ O servidor estará disponível em `http://localhost:4000`.
 5. Abra um Pull Request
 
 ## Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a licença MIT.
 
 ## Contato
 Para mais informações, entre em contato com  Giovanna Caron em giovanna.c.barros@aluno.senai.br. 
